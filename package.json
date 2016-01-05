@@ -39,6 +39,7 @@
     "lodash": "3.10.1",
     "lru-cache": "2.7.0",
     "marked": "0.3.5",
+    "moment": "2.11.0",
     "node-sass": "3.4.2",
     "postcss": "5.0.12",
     "stylus": "0.53.0"
