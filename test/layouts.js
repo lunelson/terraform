@@ -3,28 +3,28 @@ var polymer   = require('../')
 
 describe("layout", function(){
 
-  describe("none", function(){
-    var root = __dirname + "/fixtures/layouts/none"
-    var poly = polymer.root(root)
+  // describe("none", function(){
+  //   var root = __dirname + "/fixtures/layouts/none"
+  //   var poly = polymer.root(root)
 
-    it("should render with no layout", function(done){
-      poly.render("index.jade", function(errors, body){
-        should.not.exist(errors)
-        should.exist(body)
-        body.should.eql("<h2>Home Page</h2>")
-        done()
-      })
-    })
+  //   it("should render with no layout", function(done){
+  //     poly.render("index.jade", function(errors, body){
+  //       should.not.exist(errors)
+  //       should.exist(body)
+  //       body.should.eql("<h2>Home Page</h2>")
+  //       done()
+  //     })
+  //   })
 
-    it("should render with no layout too", function(done){
-      poly.render("false/layout-false.jade", function(errors, body){
-        should.not.exist(errors)
-        should.exist(body)
-        body.should.eql("<h2>Layout Explicitly Set to False</h2>")
-        done()
-      })
-    })
-  })
+  //   it("should render with no layout too", function(done){
+  //     poly.render("false/layout-false.jade", function(errors, body){
+  //       should.not.exist(errors)
+  //       should.exist(body)
+  //       body.should.eql("<h2>Layout Explicitly Set to False</h2>")
+  //       done()
+  //     })
+  //   })
+  // })
 
   describe("base", function(){
     var root = __dirname + "/fixtures/layouts/base"
