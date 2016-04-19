@@ -54,7 +54,7 @@
     "lru-cache": "4.0.0",
     "marked": "0.3.5",
     "moment": "^2.12.0",
-    "node-sass": "3.5.0-beta.1",
+    "node-sass": "sass/node-sass#5a3dcd4222b8f5fb4ad00cd7e4bb34ec787f0e8e",
     "postcss": "5.0.14",
     "stylus": "0.53.0",
     "through": "2.3.8",
