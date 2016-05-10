@@ -47,6 +47,7 @@
     "faker": "^3.0.1",
     "fixture-factory": "^1.5.1",
     "harp-minify": "0.4.0",
+    "highlight.js": "^9.3.0",
     "image-size": "^0.4.0",
     "jade": "1.11.0",
     "less": "2.5.3",
