@@ -54,12 +54,14 @@
     "lodash": "^4.6.1",
     "lru-cache": "4.0.0",
     "marked": "0.3.5",
+    "marky-mark": "^1.2.1",
     "moment": "^2.12.0",
     "node-sass": "^3.5.2",
     "postcss": "5.0.14",
     "stylus": "0.53.0",
     "through": "2.3.8",
-    "underscore.string": "^3.3.4"
+    "underscore.string": "^3.3.4",
+    "yaml-front-matter": "^3.4.0"
   },
   "devDependencies": {
     "mocha": "2.3.4",
